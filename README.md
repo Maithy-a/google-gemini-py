@@ -17,7 +17,11 @@ A simple Python project that brings Google Gemini to your terminal using a free 
    python -m venv .venv
    ```
 
-3. **Activate the environment**
+3. Create a .env file
+   ```bash
+      GEMINI_API_KEY=your_api_key
+   ```
+4. **Activate the environment**
 
    - **Windows**
      ```bash
@@ -29,17 +33,17 @@ A simple Python project that brings Google Gemini to your terminal using a free 
      source .venv/bin/activate
      ```
 
-4. **Install required packages**
+5. **Install required packages**
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Add your API key to a `.env` file**
+6. **Add your API key to a `.env` file**
    ```
    GEMINI_API_KEY=your_api_key_here
    ```
 
-6. **Run the app**
+7. **Run the app**
    ```bash
    python main.py
    ```
