@@ -6,47 +6,22 @@ A simple Python project that brings Google Gemini to your terminal using a free 
 
 ## Installation
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/Maithy-a/google-gemini-py.git
-   cd google-gemini-py
-   ```
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv .venv
-   ```
-
+1. Clone this repository
+2. Obtain your API key from [Google AI studio](https://aistudio.google.com/app/apikey)
 3. Create a .env file
    ```bash
       GEMINI_API_KEY=your_api_key
    ```
-4. **Activate the environment**
-
-   - **Windows**
-     ```bash
-     .venv\Scripts\activate
-     ```
-
-   - **macOS/Linux**
-     ```bash
-     source .venv/bin/activate
-     ```
-
-5. **Install required packages**
+4. Install required dependancies
    ```bash
    pip install -r requirements.txt
    ```
-
-6. **Add your API key to a `.env` file**
+5. Add your API key to a `.env` file
    ```
    GEMINI_API_KEY=your_api_key_here
    ```
-
-7. **Run the app**
+6. Run the app
    ```bash
    python main.py
    ```
-
-
-
+NOTE: This runs in your terminal
